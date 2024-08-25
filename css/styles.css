@@ -375,7 +375,7 @@ font-weight: 700;
     display: flex;
     flex-wrap: wrap;
     background-color: #f4f4fd;
-
+justify-content: center;
     gap: 72px;
 }
 
@@ -578,6 +578,7 @@ color: #ffffff;
 
 .footer-social-list {
     display: flex;
+    justify-content: center;
     gap: 16px;
 }
 .footer-social-item {
@@ -606,11 +607,11 @@ color: #ffffff;
 .form-footer-cont {
     width: 100%;
 }
-.footer-form {
+/* .footer-form {
 display: flex;
 flex-direction: column;
 justify-content: center;
-}
+} */
 
 .mail-input {
     border: 1px solid #fff;
